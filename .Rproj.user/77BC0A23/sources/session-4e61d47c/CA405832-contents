@@ -29,7 +29,8 @@ nobel %>%
 ### Exercise 2
 
 ```{r}
-
+nobel %>%
+  filter(!is.na(country), gender != "org", is.na(died_date))
 ```
 
 
