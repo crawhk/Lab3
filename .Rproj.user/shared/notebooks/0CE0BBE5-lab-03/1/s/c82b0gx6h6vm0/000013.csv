@@ -1,0 +1,4 @@
+"0","nobel_living <- nobel_living %>%"
+"0","  mutate("
+"0","    country_us = if_else(country == ""USA"", ""USA"", ""Other"")"
+"0","  )"

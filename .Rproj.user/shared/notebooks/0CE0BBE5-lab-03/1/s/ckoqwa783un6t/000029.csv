@@ -1,2 +1,2 @@
-"0","nobel %>%"
+"0","nobel_living <- nobel %>%"
 "0","  filter(!is.na(country), gender != ""org"", is.na(died_date))"

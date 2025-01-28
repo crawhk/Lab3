@@ -1,0 +1,2 @@
+"0","nobel_living_science <- nobel_living %>%"
+"0","  filter(category %in% c(""Physics"", ""Medicine"", ""Chemistry"", ""Economics""))"

@@ -29,17 +29,30 @@ nobel %>%
 ### Exercise 2
 
 ```{r}
-nobel %>%
+nobel_living <- nobel %>%
   filter(!is.na(country), gender != "org", is.na(died_date))
 ```
 
-
 ### Exercise 3
 
-Remove this text, and add your answer for Exercise 1 here.
-Add code chunks as needed.
-Don't forget to label your code chunk.
-Do not use spaces in code chunk labels.
+```{r mutate}
+nobel_living <- nobel_living %>%
+  mutate(
+    country_us = if_else(country == "USA", "USA", "Other")
+  )
+```
+
+```{r excludeecon}
+nobel_living_science <- nobel_living %>%
+  filter(category %in% c("Physics", "Medicine", "Chemistry", "Economics"))
+```
+
+```{r plot}
+ggplot(nobel_living_science, aes(x = category, y = country_us)) +
+  geom_bar()
+  
+```
+
 
 ### Exercise 4
 

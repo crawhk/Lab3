@@ -1,0 +1,4 @@
+"0","ggplot(nobel_living_science, aes(x = category, y = country_us)) +"
+"0","  geom_bar(x)"
+"2","Error: object 'x' not found
+"
