@@ -1,5 +1,5 @@
 ---
-title: "Lab 03 - Nobel laureates"
+title: "Lab 03 - Nobel Laureates"
 author: "Hannah Crawley"
 date: "1/28/2025"
 output: github_document
@@ -18,18 +18,20 @@ nobel <- read_csv("data/nobel.csv")
 ## Exercises
 
 ### Exercise 1
+```{r knowdata}
+nobel %>% 
+  print(nobel)
 
-Remove this text, and add your answer for Exercise 1 here.
-Add code chunks as needed.
-Don't forget to label your code chunk.
-Do not use spaces in code chunk labels.
+```
+
+935 observations - each row represents a different person
 
 ### Exercise 2
 
-Remove this text, and add your answer for Exercise 1 here.
-Add code chunks as needed.
-Don't forget to label your code chunk.
-Do not use spaces in code chunk labels.
+```{r}
+
+```
+
 
 ### Exercise 3
 
