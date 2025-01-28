@@ -3,9 +3,9 @@
     "path": "~/GitHub/Lab3/lab-03.Rmd",
     "project_path": "lab-03.Rmd",
     "type": "r_markdown",
-    "hash": "0",
+    "hash": "124749490",
     "contents": "",
-    "dirty": true,
+    "dirty": false,
     "created": 1738083647518.0,
     "source_on_save": false,
     "relative_order": 1,
@@ -16,11 +16,11 @@
         "scrollLine": "33"
     },
     "folds": "",
-    "lastKnownWriteTime": 1738084301,
+    "lastKnownWriteTime": 1738085218,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1738085187312,
+    "last_content_update": 1738085218527,
     "read_only": false,
     "read_only_alternatives": []
 }
