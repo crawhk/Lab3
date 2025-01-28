@@ -1,7 +1,7 @@
 Lab 03 - Nobel laureates
 ================
-Insert your name here
-Insert date here
+Hannah Crawley
+1/28/2025
 
 ### Load packages and data
 
