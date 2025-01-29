@@ -62,7 +62,22 @@ These results are similar to the graphs presented by BuzzFeed claiming most nobe
 
 ### Exercise 4
 
-...
+```{r borncountry}
+nobel_born_count <- nobel_living_science %>%
+  mutate(
+    born_country_us = if_else(born_country == "USA", "USA", "Other")
+  )
+```
+
+```{r}
+glimpse(nobel_born_count)
+```
+```{r}
+nobel_born_count %>%  
+  count(born_country_us)
+```
+105/228 winners were born in the US 
+
 
 ### Exercise 5
 

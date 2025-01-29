@@ -1,0 +1,4 @@
+"0","nobel_born_count <- nobel_living_science %>%"
+"0","  mutate("
+"0","    born_country_us = if_else(born_country == ""USA"", ""USA"", ""Other"")"
+"0","  )"
