@@ -81,8 +81,12 @@ nobel_born_count %>%
 
 ### Exercise 5
 
-...
-
+```{r}
+ggplot(nobel_born_count, aes(x = country_us, fill = born_country_us)) +
+  geom_bar(position = "stack") + 
+  labs(title = "Category of Prize by Country", subtitle = "By Country of Birth", x = "Won in US or Not", y = "Count") + coord_flip() + facet_wrap(~ category)
+  
+```
 ### Exercise 6
 
 ...
