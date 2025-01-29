@@ -7,34 +7,34 @@
 "1",""
 "1","
 "
-"1","$ id                    [3m[38;5;246m<dbl>[39m[23m 68, 69, 95, 97, 98, 99, 101, 103, 10…
-$ firstname             [3m[38;5;246m<chr>[39m[23m ""Chen Ning"", ""Tsung-Dao"", ""Leon N."",…
-$ surname               [3m[38;5;246m<chr>[39m[23m ""Yang"", ""Lee"", ""Cooper"", ""Esaki"", ""G…
-$ year                  [3m[38;5;246m<dbl>[39m[23m 1957, 1957, 1972, 1973, 1973, 1973, …
-$ category              [3m[38;5;246m<chr>[39m[23m ""Physics"", ""Physics"", ""Physics"", ""Ph…
-$ affiliation           [3m[38;5;246m<chr>[39m[23m ""Institute for Advanced Study"", ""Col…
-$ city                  [3m[38;5;246m<chr>[39m[23m ""Princeton NJ"", ""New York NY"", ""Prov…
-$ country               [3m[38;5;246m<chr>[39m[23m ""USA"", ""USA"", ""USA"", ""USA"", ""USA"", ""…
-$ born_date             [3m[38;5;246m<date>[39m[23m 1922-09-22, 1926-11-24, 1930-02-28,…
-$ died_date             [3m[38;5;246m<date>[39m[23m [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mNA[39m,…
-$ gender                [3m[38;5;246m<chr>[39m[23m ""male"", ""male"", ""male"", ""male"", ""mal…
-$ born_city             [3m[38;5;246m<chr>[39m[23m ""Hofei Anhwei"", ""Shanghai"", ""New Yor…
-$ born_country          [3m[38;5;246m<chr>[39m[23m ""China"", ""China"", ""USA"", ""Japan"", ""N…
-$ born_country_code     [3m[38;5;246m<chr>[39m[23m ""CN"", ""CN"", ""US"", ""JP"", ""NO"", ""GB"", …
-$ died_city             [3m[38;5;246m<chr>[39m[23m [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mNA[39m, …
-$ died_country          [3m[38;5;246m<chr>[39m[23m [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mNA[39m, …
-$ died_country_code     [3m[38;5;246m<chr>[39m[23m [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mNA[39m, …
-$ overall_motivation    [3m[38;5;246m<chr>[39m[23m [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mNA[39m, …
-$ share                 [3m[38;5;246m<dbl>[39m[23m 2, 2, 3, 4, 4, 2, 2, 3, 2, 3, 4, 4, …
-$ motivation            [3m[38;5;246m<chr>[39m[23m ""\""for their penetrating investigati…
-$ born_country_original [3m[38;5;246m<chr>[39m[23m ""China"", ""China"", ""USA"", ""Japan"", ""N…
-$ born_city_original    [3m[38;5;246m<chr>[39m[23m ""Hofei Anhwei"", ""Shanghai"", ""New Yor…
-$ died_country_original [3m[38;5;246m<chr>[39m[23m [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mNA[39m, …
-$ died_city_original    [3m[38;5;246m<chr>[39m[23m [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mNA[39m, …
-$ city_original         [3m[38;5;246m<chr>[39m[23m ""Princeton NJ"", ""New York NY"", ""Prov…
-$ country_original      [3m[38;5;246m<chr>[39m[23m ""USA"", ""USA"", ""USA"", ""USA"", ""USA"", ""…
-$ country_us            [3m[38;5;246m<chr>[39m[23m ""USA"", ""USA"", ""USA"", ""USA"", ""USA"", ""…
-$ born_country_us       [3m[38;5;246m<chr>[39m[23m ""Other"", ""Other"", ""USA"", ""Other"", ""O…"
+"1","$ id                    [3m[38;5;246m<dbl>[39m[23m 68, 69, 95, 97, 9…
+$ firstname             [3m[38;5;246m<chr>[39m[23m ""Chen Ning"", ""Tsu…
+$ surname               [3m[38;5;246m<chr>[39m[23m ""Yang"", ""Lee"", ""C…
+$ year                  [3m[38;5;246m<dbl>[39m[23m 1957, 1957, 1972,…
+$ category              [3m[38;5;246m<chr>[39m[23m ""Physics"", ""Physi…
+$ affiliation           [3m[38;5;246m<chr>[39m[23m ""Institute for Ad…
+$ city                  [3m[38;5;246m<chr>[39m[23m ""Princeton NJ"", ""…
+$ country               [3m[38;5;246m<chr>[39m[23m ""USA"", ""USA"", ""US…
+$ born_date             [3m[38;5;246m<date>[39m[23m 1922-09-22, 1926…
+$ died_date             [3m[38;5;246m<date>[39m[23m [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mNA[39m, …
+$ gender                [3m[38;5;246m<chr>[39m[23m ""male"", ""male"", ""…
+$ born_city             [3m[38;5;246m<chr>[39m[23m ""Hofei Anhwei"", ""…
+$ born_country          [3m[38;5;246m<chr>[39m[23m ""China"", ""China"",…
+$ born_country_code     [3m[38;5;246m<chr>[39m[23m ""CN"", ""CN"", ""US"",…
+$ died_city             [3m[38;5;246m<chr>[39m[23m [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mN[39m…
+$ died_country          [3m[38;5;246m<chr>[39m[23m [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mN[39m…
+$ died_country_code     [3m[38;5;246m<chr>[39m[23m [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mN[39m…
+$ overall_motivation    [3m[38;5;246m<chr>[39m[23m [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mN[39m…
+$ share                 [3m[38;5;246m<dbl>[39m[23m 2, 2, 3, 4, 4, 2,…
+$ motivation            [3m[38;5;246m<chr>[39m[23m ""\""for their pene…
+$ born_country_original [3m[38;5;246m<chr>[39m[23m ""China"", ""China"",…
+$ born_city_original    [3m[38;5;246m<chr>[39m[23m ""Hofei Anhwei"", ""…
+$ died_country_original [3m[38;5;246m<chr>[39m[23m [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mN[39m…
+$ died_city_original    [3m[38;5;246m<chr>[39m[23m [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mNA[39m, [31mN[39m…
+$ city_original         [3m[38;5;246m<chr>[39m[23m ""Princeton NJ"", ""…
+$ country_original      [3m[38;5;246m<chr>[39m[23m ""USA"", ""USA"", ""US…
+$ country_us            [3m[38;5;246m<chr>[39m[23m ""USA"", ""USA"", ""US…
+$ born_country_us       [3m[38;5;246m<chr>[39m[23m ""Other"", ""Other"",…"
 "1",""
 "1","
 "

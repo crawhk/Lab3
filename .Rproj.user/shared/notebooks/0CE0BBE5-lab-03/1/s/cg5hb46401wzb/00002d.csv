@@ -1,0 +1,4 @@
+"0","nobel_born_count %>% "
+"0","  filter(born_country_us == ""Other"") %>%"
+"0","  count(born_country)%>% "
+"0","  arrange(desc(n)) "
