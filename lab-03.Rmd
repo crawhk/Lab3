@@ -87,6 +87,11 @@ ggplot(nobel_born_count, aes(x = country_us, fill = born_country_us)) +
   labs(title = "Category of Prize by Country", subtitle = "By Country of Birth", x = "Won in US or Not", y = "Count") + coord_flip() + facet_wrap(~ category)
   
 ```
+Key results  
+  - many of the nobel laureate winners were in the US when they won the award, but were born outside of the US
+  - winners of categories such as econ tend to be US-born where as physics tend to be internationally born 
+  - results appear to support the BuzzFeed article's claim that immigration is important to since because many nobel laureates are not US-born 
+
 ### Exercise 6
 
 ...
