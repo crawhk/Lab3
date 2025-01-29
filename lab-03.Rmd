@@ -48,9 +48,9 @@ nobel_living_science <- nobel_living %>%
 ```
 
 ```{r plot}
-ggplot(nobel_living_science, aes(x = category, y = country_us)) +
-  geom_bar()
-  
+ggplot(nobel_living_science, aes(x = category, fill = country_us)) +
+  geom_bar() + 
+  labs(title = "Category of Prize by Country", x = "Category of Prize", y = "Count") + coord_flip()
 ```
 
 
@@ -65,3 +65,4 @@ ggplot(nobel_living_science, aes(x = category, y = country_us)) +
 ### Exercise 6
 
 ...
+,
