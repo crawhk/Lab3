@@ -1,3 +1,0 @@
-"0","ggplot(nobel_living_science, aes(x = category, fill = country_us)) +"
-"0","  geom_bar() + "
-"0","  labs(title = ""Category of Prize by Country"", x = ""Category of Prize"", y = ""Count"") + coord_flip()"

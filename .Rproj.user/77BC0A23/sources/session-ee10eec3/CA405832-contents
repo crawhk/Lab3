@@ -50,9 +50,15 @@ nobel_living_science <- nobel_living %>%
 ```{r plot}
 ggplot(nobel_living_science, aes(x = category, fill = country_us)) +
   geom_bar() + 
-  labs(title = "Category of Prize by Country", x = "Category of Prize", y = "Count") + coord_flip()
+  labs(title = "Category of Prize by Country", x = "Category of Prize", y = "Count") + coord_flip() + facet_wrap(~ category)  
 ```
-
+  - The majority of econ winners are from the US  
+  - Roughly 1/2 of the chem winners are from the US
+  - About 2/3 of the medicine winners are from the US 
+  - A little over 1/2 of chemistry winners are from the US
+  
+These results are similar to the graphs presented by BuzzFeed claiming most nobel laureates were based in the US when they one there prize 
+  
 
 ### Exercise 4
 
