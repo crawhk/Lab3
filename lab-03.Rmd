@@ -103,10 +103,3 @@ nobel_born_count %>%
 ```
 
 Germany is the most common country (20 award winners) 
-
-
-
-
-
-
-
